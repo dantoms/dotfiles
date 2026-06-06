@@ -64,3 +64,7 @@ Neovim config adapted from [LazyVim](https://www.lazyvim.org/#%EF%B8%8F-requirem
 ### Rofi
 
 [Rofi](https://github.com/davatorium/rofi) is a program launcher
+
+### SwayNC
+
+- [swaync](https://github.com/ErikReider/SwayNotificationCenter)
