@@ -20,7 +20,7 @@ Requirements:
 
 Requirements:
 
-- [Starship](https://starship.rs)
+- [Starship](#starship)
 
 ### Ghostty
 
@@ -46,3 +46,9 @@ Additional Information:
 
 The configured font fo this terminal is [JetBrainsMono Nerd Font](ht.tps://www.programmingfonts.org/#jetbrainsmono)
 You will need to reconfigure this if you wish to use something else.
+
+### Starship
+
+A prompt used by [ZSH](#zsh)
+
+- [Starship](https://starship.rs)
