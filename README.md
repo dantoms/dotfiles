@@ -15,7 +15,6 @@ stow tmux
 Requirements:
 
 - [sesh](https://github.com/joshmedeski/sesh?tab=readme-ov-file#readme)
-- [Vim Tmux Navigator](https://github.com/christoomey/vim-tmux-navigator)
 
 ### ZSH
 
