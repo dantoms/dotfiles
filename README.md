@@ -28,3 +28,16 @@ Requirements:
 
 - [sesh](https://github.com/joshmedeski/sesh?tab=readme-ov-file#readme)
 - [fzf](https://github.com/junegunn/fzf)
+
+### Hypr
+
+Requirements:
+
+- [swaync](https://github.com/ErikReider/SwayNotificationCenter)
+- [waybar](https://github.com/alexays/waybar) - Uncomment this in `hypr/autostart` if used
+
+Additional Information:
+
+- While [Ghostty](#ghostty) is used as the terminal in this config,
+  Kitty is the default terminal for wayland,
+  so you may wish to have it installed in case this config breaks.
