@@ -8,7 +8,7 @@ To add the tmux config you would use:
 stow tmux
 ```
 
-## Additional Information
+## Additional Information And Requirements
 
 ### Tmux
 
