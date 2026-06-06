@@ -20,11 +20,6 @@ alias vim='nvim'
 alias zconf='nvim ~/.zshrc && source ~/.zshrc && clear && echo "Sucessfully sourced zshrc."'
 alias ls='eza --icons=always --color=always --git --group-directories-first'
 
-
-## byobu
-alias b='byobu'
-
-
 # Autostart
 
 ## Starship - Keep at bottom
