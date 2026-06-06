@@ -21,3 +21,10 @@ Requirements:
 Requirements:
 
 - [Starship](https://starship.rs)
+
+### Ghostty
+
+Requirements:
+
+- [sesh](https://github.com/joshmedeski/sesh?tab=readme-ov-file#readme)
+- [fzf](https://github.com/junegunn/fzf)
