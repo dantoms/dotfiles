@@ -19,6 +19,7 @@ export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin/:$PATH
 alias vim='nvim'
 alias zconf='nvim ~/.zshrc && source ~/.zshrc && clear && echo "Sucessfully sourced zshrc."'
 alias ls='eza --icons=always --color=always --git --group-directories-first'
+alias ss='sesh connect $(sesh list | fzf)'
 
 # Autostart
 
