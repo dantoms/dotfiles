@@ -1,0 +1,1 @@
+/home/dan/.config/emacs/elpaca/sources/swiper/ivy-overlay.el

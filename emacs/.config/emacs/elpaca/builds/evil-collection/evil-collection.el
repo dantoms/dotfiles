@@ -1,0 +1,1 @@
+/home/dan/.config/emacs/elpaca/sources/evil-collection/evil-collection.el
