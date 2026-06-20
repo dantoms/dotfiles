@@ -1,0 +1,11 @@
+*~
+emacs/.config/emacs/auto-save-list/
+emacs/.config/emacs/eln-cache/
+emacs/.config/emacs/elpaca/
+emacs/.config/emacs/projectile-bookmarks.eld
+emacs/.config/emacs/tramp
+emacs/.config/emacs/transient/
+emacs/.config/emacs/auto-save-list/
+emacs/.config/emacs/recentf
+emacs/.config/emacs/eshell/history
+emacs/.config/emacs/eshell/lastdir
