@@ -1,5 +1,5 @@
 #+TITLE: DT's GNU Emacs Config
-#+AUTHOR: Derek Taylor (DT)
+#+AUTHOR: Dan Toms (DT)
 #+DESCRIPTION: DT's personal Emacs config.
 #+STARTUP: showeverything
 #+OPTIONS: toc:2
@@ -11,6 +11,7 @@
   - [[#general-keybindings][General Keybindings]]
 - [[#all-the-icons][ALL THE ICONS]]
 - [[#buffer-move][BUFFER-MOVE]]
+- [[#dashboard][DASHBOARD]]
 - [[#fonts][FONTS]]
   - [[#setting-the-font-face][Setting the Font Face]]
   - [[#zooming-inout][Zooming In/Out]]
@@ -23,8 +24,16 @@
   - [[#enabling-org-bullets][Enabling Org Bullets]]
   - [[#disable-electric-indent][Disable Electric Indent]]
   - [[#source-code-block-tag-expansion][Source Code Block Tag Expansion]]
+- [[#projectile][Projectile]]
+- [[#rainbow-mode][RAINBOW MODE]]
 - [[#reload-emacs][RELOAD EMACS]]
+- [[#shells-and-terminals][SHELLS AND TERMINALS]]
+  - [[#eshell][Eshell]]
+  - [[#vterm][Vterm]]
+  - [[#vterm-toggle][Vterm-Toggle]]
 - [[#sudo-edit][SUDO EDIT]]
+- [[#themes][THEMES]]
+  - [[#doom-themes][Doom Themes]]
 - [[#which-key][WHICH-KEY]]
 
 * IMPORTANT PROGRAMS TO LOAD FIRST
