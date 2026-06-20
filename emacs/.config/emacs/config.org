@@ -315,6 +315,7 @@ https://www.emacswiki.org/emacs/buffer-move.el
 
 #+end_src
 
+
 * FONTS
 Defining the various fonts that Emacs will use.
 
@@ -359,7 +360,6 @@ You can use the bindings CTRL plus =/- for zooming in/out.  You can also use CTR
 (global-set-key (kbd "<C-wheel-up>") 'text-scale-increase)
 (global-set-key (kbd "<C-wheel-down>") 'text-scale-decrease)
 #+end_src
-
 
 * GRAPHICAL USER INTERFACE TWEAKS
 Let's make GNU Emacs look a little better.
@@ -418,7 +418,6 @@ Let's make GNU Emacs look a little better.
                                  'ivy-rich-switch-buffer-transformer))
 
 #+end_src
-
 
 * ORG MODE
 ** Enabling Table of Contents
