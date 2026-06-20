@@ -1,6 +1,4 @@
 background-opacity = 0.4
-window-padding-x = 20
-window-padding-y = 20
 confirm-close-surface=false
 # command = tmux new-session -A -s $(sesh list | fzf --print-query)
 
