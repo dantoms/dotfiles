@@ -485,6 +485,19 @@ You can use the bindings CTRL plus =/- for zooming in/out.  You can also use CTR
   )
 #+end_src
 
+** Magit
+Obviously
+But first we need to make sure transient is up to date
+#+begin_src emacs-lisp
+ (use-package transient
+  :ensure (:fetcher github :repo "magit/transient"))
+
+#+end_src
+#+begin_src emacs-lisp
+  (use-package magit
+  :ensure t
+  :demand t)
+#+end_src
 * GRAPHICAL USER INTERFACE TWEAKS
 Let's make GNU Emacs look a little better.
 
