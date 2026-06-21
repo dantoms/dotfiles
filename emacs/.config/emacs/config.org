@@ -498,6 +498,23 @@ But first we need to make sure transient is up to date
   :ensure t
   :demand t)
 #+end_src
+* HIGHLIGHT TODO
+#+begin_src emacs-lisp
+  (use-package hl-todo
+    :ensure t
+    :hook ((org-mode . hl-todo-mode)
+           (prog-mode . hl-todo-mode))
+    :config
+    (setq hl-todo-highlight-punctuation ":"
+          hl-todo-keyword-faces
+          `(("TODO"       warning bold)
+            ("FIXME"      error bold)
+            ("HACK"       font-lock-constant-face bold)
+            ("REVIEW"     font-lock-keyword-face bold)
+            ("NOTE"       success bold)
+            ("DEPRECATED" font-lock-doc-face bold))))
+
+#+end_src
 * GRAPHICAL USER INTERFACE TWEAKS
 Let's make GNU Emacs look a little better.
 
