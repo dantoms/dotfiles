@@ -209,7 +209,10 @@
 
      (dt/leader-keys
        "p" '(projectile-command-map :wk "Projectile"))
-
+     
+     (dt/leader-keys
+       "s" '(:ignore t :wk "Search")
+       "s s" '(swiper :wk "Swiper"))
 
      (dt/leader-keys
       "t" '(:ignore t :wk "Toggle")
