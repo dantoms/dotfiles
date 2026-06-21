@@ -68,6 +68,19 @@ hl.window_rule({
 
 hl.layer_rule({
 	name = "notification-animations",
-	match = { namespace = "swaync-ontrol-center" },
+	match = { namespace = "swaync-control-center" },
 	animation = "slide top",
+})
+
+
+hl.layer_rule({
+	name = "emacs",
+	match = { namespace = "swaync-control-center" },
+	animation = "slide top",
+})
+
+hl.window_rule({
+    name = "emacs-transparency",
+    match = { class = "emacs" },
+    opacity = 1,
 })

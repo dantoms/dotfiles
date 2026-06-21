@@ -759,6 +759,15 @@ Vterm is a terminal emulator within Emacs.  The 'shell-file-name' setting sets t
     (load-theme 'modus-vivendi-deuteranopia t)
     )
 #+end_src
+
+* TRANSPARENCY
+With Emacs version 29, true transparency has been added.  
+
+#+begin_src emacs-lisp
+(add-to-list 'default-frame-alist '(alpha-background . 70)) ; For all new frames henceforth
+
+#+end_src
+
 * WHICH-KEY
 #+begin_src emacs-lisp
     ;;  (use-package which-key
