@@ -579,6 +579,18 @@ Emacs has built-in programming language modes for Lisp, Scheme, DSSSL, Ada, ASM,
 #+begin_src emacs-lisp
 (use-package lua-mode :ensure t)
 #+end_src
+* MODELINE
+#+begin_src emacs-lisp
+(use-package doom-modeline
+  :ensure t
+  :init (doom-modeline-mode 1)
+  :config
+  (setq doom-modeline-height 0      ;; sets modeline height
+        doom-modeline-bar-width 5    ;; sets right bar width
+        doom-modeline-persp-name t   ;; adds perspective name to modeline
+        doom-modeline-persp-icon t)) ;; adds folder icon next to persp name
+
+#+end_src
 * ORG MODE
 ** Enabling Table of Contents
 #+begin_src emacs-lisp
