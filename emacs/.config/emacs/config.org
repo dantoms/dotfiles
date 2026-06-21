@@ -756,8 +756,8 @@ Vterm is a terminal emulator within Emacs.  The 'shell-file-name' setting sets t
     ;; for treemacs users
     ;; (doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
     :config
-    (load-theme 'doom-gruvbox t)
-  )
+    (load-theme 'modus-vivendi-deuteranopia t)
+    )
 #+end_src
 * WHICH-KEY
 #+begin_src emacs-lisp
